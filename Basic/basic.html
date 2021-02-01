@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Help</title>
+
+
+<script>
+function  fun(){
+var mes = "Your computer has malware. Please download our file to fix it."
+	alert(mes);
+}
+//this is a comment
+function fun2(){
+	var col= prompt("What is your favorite color?" , " ");
+	document.getElementById("change").style.backgroundColor = col;
+}
+/* yes */
+function fun3(){
+	document.getElementById("this").innerHTML = "this changed.";
+}
+
+</script>
+
+
+</head>
+
+<body id="change" onload="fun2()">
+<h1 onmouseover="fun3()" id="this">I have the POWER!</h1>
+</body>
+
+</html>
